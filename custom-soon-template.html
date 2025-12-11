@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming-Soon Landing Page</title>
+    <style>
+        body,html{
+            margin: 0;
+            padding: 0;
+            background-color: #1a1919;
+            font-family: Arial,Helvetica,sans-serif;
+            height: 100vh;
+            color: #fff;
+        }
+        .container{
+            background: linear-gradient(90deg,rgb(243, 157, 171),rgb(157, 224, 247));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        height: 100%;
+    }
+        .content{
+            text-align: center;
+            padding: 20px;
+            max-width: 400px;
+            background-color: rgba(250, 228, 227, 0.4);
+            border-radius: 10px;
+            margin: 30px;
+        }
+        img{
+            width: 150px;
+            height: auto;
+            box-shadow: #807e7e 0px 4px 8px;
+        }
+        h1{
+            font-size: 2.5em;
+            margin: 20px 20px 10px 20px;
+            color: rgb(82, 81, 81);
+        }
+        p{
+            font-size: 1.2em;
+            margin: 10px 20px 20px 20px;
+            color: rgb(82, 81, 81);
+            font-family: cursive;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+
+        }
+        input[type="email"]{
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-bottom: 1px solid grey;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button{
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff6f91;
+            color: white;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.4s ease-in-out;
+            box-shadow: 0px 3px 6px rgba(1, 56, 59, 0.719);
+        }
+        button:hover{
+            background-color: #ff4c6d;
+            border:1px solid rgb(250, 104, 104);
+            padding:9px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="https://img.freepik.com/free-vector/bird-colorful-gradient-design-vector_343694-2506.jpg?semt=ais_hybrid&w=740&q=80" alt="logo">
+            <h1>Coming Soon</h1>
+            <p>Our website is under construction. We'll be here soon with our new awesome site, subscribe to be notified.</p>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Notify Me</button>
+        </div>
+    </div>
+</body>
+</html>
